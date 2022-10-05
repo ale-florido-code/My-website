@@ -1,0 +1,167 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+body{
+    background:white;
+    font-family: Arial, Helvetica, sans-serif;     
+}
+
+#container{
+    
+    width: 1100px;
+    margin: 0px auto;
+    border: 5px solid black;
+                
+}
+header{
+    background:rgb(247, 247, 189);
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    line-height: 100px;
+    color: black;
+    border-bottom: 3px dashed black;
+                
+}
+
+
+nav{
+    background: lightblue;
+    height: 50px;
+    border-bottom: 1px solid black;
+                
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 10px;
+    line-height: 30px;
+    border-bottom: black;         
+                
+}
+.clearfix{
+    clear: both;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+            
+}
+
+        
+#content{
+    float: left;
+    width: calc(80% - 80px);
+    min-height: 500px;
+    background:rgb(247, 247, 189);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+          
+
+            
+
+aside{
+    float: left;
+    width: calc(20% - 20px);
+    background: orange;
+    min-height: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+                
+}
+
+        
+
+aside ul li{
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style: none;
+    font-size: 30px;
+}
+            
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+.article{
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+    padding-bottom: 10px;
+}
+
+.article:first-child{
+    padding-top: 10px;
+    border-top: 1px solid black;
+}
+
+.article h2{
+    font-size: 25px;
+}
+
+    
+p {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    line-height: 35px;
+}
+
+h2{
+    height: 100px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    color: black;
+    border-bottom: 3px dashed black;
+}
+
+/*
+tablet
+*/
+@media (min-width: 390px) and (max-width: 844px) {
+                
+body {
+                    background-color: black;
+}
+}    
+/*
+Desktop,computers
+*/
+@media (min-width: 1025px) {
+.paella-paragraph:first-child {
+    padding-top: 0px; 
+    border:none;
+}
+.paella-content > .paella-paragraph{
+    flex: 50%;
+}
+}
+
+           
+            
+            
+            
+            
+            
+
+              
+              
+
+
+
+   
